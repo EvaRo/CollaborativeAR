@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_colorRed"
+        android:title="@string/colorRED"/>
+    <item android:id="@+id/menu_colorGreen"
+        android:title="@string/colorGREEN"/>
+    <item android:id="@+id/menu_colorYellow"
+        android:title="@string/colorYELLOW"/>
+    <item android:id="@+id/menu_colorNone"
+        android:title="@string/colorNONE"/>
+
+    <item android:id="@+id/menu_symbolRight"
+        android:title="@string/symbolRIGHT"/>
+    <item android:id="@+id/menu_symbolWrong"
+        android:title="@string/symbolWRONG"/>
+    <item android:id="@+id/menu_symbolDanger"
+        android:title="@string/symbolDANGER"/>
+    <item android:id="@+id/menu_symbolExclaim"
+        android:title="@string/symbolEXCLAIM"/>
+    <item android:id="@+id/menu_symbolQuestion"
+        android:title="@string/symbolQUESTION"/>
+    <item android:id="@+id/menu_symbolNone"
+        android:title="@string/symbolNONE"/>
+
+    <item android:id="@+id/menu_enterComment"
+        android:title="@string/comment"/>
+    <item android:id="@+id/menu_deleteComment"
+        android:title="@string/noComment"/>
+
+    <item android:id="@+id/menu_deleteAllChanges"
+        android:title="@string/deleteChanges"/>
+</menu>

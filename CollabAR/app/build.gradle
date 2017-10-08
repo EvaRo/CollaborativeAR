@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId "com.main.collabar"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/ASL2.0'
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.1', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile files('libs/jpct_ae.jar')
+    compile files('libs/Vuforia.jar')
+    compile files('libs/thingworx-common-7.1.0-b13.jar')
+    compile files('libs/thingworx-communications-client-7.1.0-b13.jar')
+    compile project(':thingworx-android-sdk-1.0.0')
+    compile files('libs/slf4j-api-1.7.6.jar')
+    compile files('libs/joda-time-2.3.jar')
+    compile files('libs/jackson-annotations-2.2.4.jar')
+    compile files('libs/jackson-core-2.2.4.jar')
+    compile files('libs/jackson-databind-2.2.4.jar')
+    compile 'com.android.support:appcompat-v7:25.0.0'
+    compile 'com.android.support:design:25.0.0'
+    testCompile 'junit:junit:4.12'
+}

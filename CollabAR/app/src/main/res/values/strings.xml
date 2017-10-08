@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Collaborative AR</string>
+    <string name="colorRED">Color Red</string>
+    <string name="colorGREEN">Color Green</string>
+    <string name="colorYELLOW">Color Yellow</string>
+    <string name="colorNONE">No Color</string>
+    <string name="symbolRIGHT">Put \"Right\" Symbol</string>
+    <string name="symbolWRONG">Put \"Wrong\" Symbol</string>
+    <string name="symbolDANGER">Put \"Danger\" Symbol</string>
+    <string name="symbolEXCLAIM">Put \"Exclamation\" Symbol</string>
+    <string name="symbolQUESTION">Put \"Question\" Symbol</string>
+    <string name="symbolNONE">Delete Symbol</string>
+    <string name="comment">Enter Comment</string>
+    <string name="noComment">Delete Comment</string>
+    <string name="deleteChanges">Delete all changes</string>
+    <string name="title_activity_login">Login</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+</resources>
